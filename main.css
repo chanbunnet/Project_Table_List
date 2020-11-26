@@ -1,0 +1,107 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  background-color: #fff;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 1024px;
+}
+
+.container.has-padding {
+  padding: 20px;
+}
+
+.container.content-center {
+  text-align: center;
+}
+
+.form-action {
+  text-align: right;
+  padding: 20px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
+  opacity: 0.8;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.btn.btn-primary {
+  background-color: #0080ff;
+  color: white;
+}
+
+.btn.btn-success {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.form-wrapper {
+  background-color: #fafafa;
+  border-radius: 6px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  display: none;
+  margin: 20px auto;
+  padding: 20px;
+  width: 480px;
+}
+
+.form-wrapper.active {
+  display: block;
+}
+
+.input-groups {
+  margin-bottom: 16px;
+}
+
+.input-groups {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-groups label {
+  width: 120px;
+  text-align: right;
+  margin-right: 16px;
+}
+
+.input-groups input,
+.input-groups textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.action-wrapper {
+  text-align: right;
+}
+
+.list-wrapper {
+  box-sizing: border-box;
+  padding: 16px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+table {
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  width: 100%;
+}
